@@ -7,10 +7,18 @@
     <script src="../dist/index.js" defer></script>
     <link rel="stylesheet" href="../dist/output.css">
 </head>
-<body class="flex flex-col items-center justify-center min-h-screen">
-    <h1 class="text-3xl font-semibold underline">
-        Hello World!
-    </h1>
-    
+<body class="flex flex-col h-screen">
+    <div class="flex flex-1 items-center justify-center">    
+        <input 
+        type="text"
+        placeholder="ToDo"
+        class="p-2 text-lg border-2 border-gray-400 rounded focus:border-black focus:outline-none"
+        >
+        <button class="bg-blue-400 p-2 font-bold text-white rounded text-lg border-gray-400 border-2 ml-2">
+            Add</button>
+    </div>
+    <div class="flex-[2] bg-slate-400">
+        <!-- 下の要素 -->
+    </div>
 </body>
 </html>
