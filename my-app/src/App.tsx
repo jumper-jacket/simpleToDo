@@ -1,11 +1,12 @@
 import React from 'react';
 import ToDoList from './components/ToDoList';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div >
-     <h1 className="text-4xl font-bold"> Tailwind</h1>
-     <ToDoList />
+    <div className="min-h-screen bg-gradient-to-r from-neutral-800 to-black  flex flex-col justify-center ">
+        <Header />
+        <ToDoList />
     </div>
   );
 }

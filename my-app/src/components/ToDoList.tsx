@@ -12,7 +12,8 @@ function ToDoList() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 bg-gray-200 rounded-lg shadow-xl">
+    <div className="flex justify-center items-center min-h-screen">
+    <div className="w-[70%]  bg-gray-200 rounded-lg shadow-xl">
     <div className="flex justify-center">
       <h1 className="text-2xl font-bold mb-4">Todo</h1>
     </div>
@@ -39,6 +40,7 @@ function ToDoList() {
         ))}
       </ul>
     </div>
+</div>
   );
 }
 
